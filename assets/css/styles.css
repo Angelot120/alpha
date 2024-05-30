@@ -1,0 +1,214 @@
+
+
+@font-face {
+    font-family: roboto-regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+
+/* Index */
+
+.networks {
+    display: grid;
+    grid-template-columns: 1fr .2fr 1fr;
+}
+.home-header{
+    background-color: #ffffff68;
+}
+.auther-header{
+    background-color: #D9D9D9;
+}
+
+.home-banner{
+    background: url("../images/Background-img.jfif") no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    height: 150vh;
+}
+.banner-text{
+    font-family: roboto-black;
+    font-size: 3rem;
+}
+
+
+.after-banner{
+    background: url("../images/Rectangle-Bg.png") no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+/* .mycol img{
+    height: 100px;
+} */
+
+.second-session{
+    background: url("../images/Rectangle-13-BG.png") no-repeat;
+    background-size: cover;
+    
+}
+
+.contact-session{
+    background: url("../images/tird-bg.png") no-repeat;
+    background-size: cover;
+}
+.items{
+    margin-top: 230px !important;
+}
+textarea{
+    resize: none;
+}
+
+.send-button{
+    width: 100%;
+}
+
+.social-networks{
+    display: flex;
+}
+.social-networks img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Footer */
+
+.footer1{
+    background: url("../images/footer-background.png") no-repeat;
+    background-size: cover;
+}
+
+.footer-left-items{
+    display: flex;
+}
+.footer-left-items img{
+    height: 25px;
+    margin-right: 10px;
+}
+
+.footer-left-items p{
+    color: white;
+}
+.team-session{
+    font-size: 1.5rem;
+    color: white;
+}
+.second-footer{
+    background-color: black;
+    color: white;
+}
+em{
+    color: #0D6EFD;
+}
+
+/* End Footer */
+
+
+/* End Index */
+
+.articles-banner{
+    background: url("../images/schoolBg.jfif");
+    width: 100%;
+    height: 400px;
+    padding-top: 80px;
+}
+
+
+/* Articles */
+
+
+
+
+/* More session */
+
+
+.more-banner{
+    width: 100%;
+}
+.qui-session{
+    margin-top: 25vh;
+}
+
+.more-second-session{
+    width: 100%;
+    display: grid;
+    grid-template-columns: .7fr 1fr;
+}
+.more-second-session-left-items{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .more-second-session{
+        grid-template-columns: 1fr;
+    }
+}
+/* End More session */
+
+
+
+
+/* Doc */
+
+.doc-banner{
+    background: url("../images/docs.png") no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+/* End Doc */
+
+
+
+/* Candidat */
+
+.candidat-banner{
+    background: url("../images/candidater.jpg") no-repeat;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr;
+}
+
+.candidat-banner h2{
+    padding: 20px 40px;
+    background-color: #00000081;
+    color: white;
+}
+
+/* End Candidat */
+
+
+
+/* Details */
+
+.details{
+    border-radius: 40px;
+}
+.details img{
+    width: 100%;
+    height: 300px;
+    border-radius: 40px;
+}
+
+/* End Details */
